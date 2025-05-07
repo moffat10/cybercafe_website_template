@@ -1,0 +1,105 @@
+.topnav {
+    background-color: rgb(143, 104, 7);
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    height:fit-content;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:right;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color:rgb(185, 159, 127);
+    font-size: 18px;
+  }
+  .logo{
+    color:goldenrod;
+  
+  }
+  
+   
+   
+   .productimage{
+    width:100%;
+    height: 50%;
+    border-radius: 30px;
+   }
+   .bizname{
+    color: goldenrod;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+   }
+   .intro{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+   }
+   button{
+    width: 80px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 20px;
+   }
+   .services{
+    color:white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+   }
+   h3{
+    color:rgb(207, 141, 20);
+    text-align: center;
+   }
+   .servicecard{
+    padding: 10px;
+    font-size: large;
+   }
+   .follow{
+    color:white;
+    padding: 30px;
+    background-color:rgb(35, 28, 28);
+    border-radius: 10px;
+   }
+   .follow a{
+    padding: 10px;
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size:large;
+   }
+   .footer{
+    color:white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: x-small;
+    padding: 10px;
+   }
+   #location{
+    padding-left: 30px;
+    background-color: rgb(175, 166, 166);
+   }
+   .item{
+    text-align: center;
+    color: #f2f2f2;
+   }
